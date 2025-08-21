@@ -24,6 +24,7 @@
       default = pkgs.mkShell {
         packages = [
           pkgs.gcc
+          pkgs.python3
         ];
       };
     });
