@@ -1,0 +1,11 @@
+Metric,Value
+T_serial (s),0.005685
+T_parallel_C (s),0.001893
+Threads_C,8
+Speedup_C = T_serial/T_parallel_C,3.003
+Eficiencia_C = Speedup_C/Threads_C,0.375
+T_parallel_Python (s),0.236555
+Threads_Python,8
+C_vs_Python_Factor = T_py/T_c,124.963
+Python_vs_C_Speedup = T_c/T_py,0.008
+Python_Relative_Efficiency = (T_c/T_py)/Threads_Python,0.001
